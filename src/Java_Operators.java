@@ -62,5 +62,8 @@ public class Java_Operators {
 
         result = true & ++a > 11;
         System.out.println("Result is: " + result);
+
+        result = !(10 > 34) && true; // not operator, !false is true. True and true is true.
+        System.out.println("Result is: " + result);
     }
 }
