@@ -61,6 +61,20 @@ public class Java_Primitive_Types {
         dbl = 1.5e2;
         System.out.println(dbl);
 
+        /*
+        Valid variable names/identifiers.
+        Underscores, numbers, and letters are fine.
+        You cannot begin a variable name with a digit/number.
+        For a variable name use camel case. Begin variables with
+        a lowercase letter. Spell the words correctly.
+        EX: myIntVariable
+
+        Constants are to be in all capitalized letters that are
+        separated by underscores.
+        EX: MY_CONSTANT
+        */
+
+
         // max_Min();
     }
 
