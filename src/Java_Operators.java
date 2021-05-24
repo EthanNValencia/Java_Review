@@ -36,7 +36,31 @@ public class Java_Operators {
         System.out.println(15|8);
         System.out.println(+45); // does nothing
 
-        int a = 10, b = 6;
+        int a = 10, b = 6, c = a/b;
+        System.out.println(c);
         double dbl = 1.5;
+
+        // Arithmetic Operators do not work on bytes. A down cast is necessary.
+        byte b1 = 10, b2 = 5, b3;
+        b3 = (byte)(b1 + b2); // it looks weird, but it works. The addition was done in int.
+        System.out.println(b3);
+        b3++;
+        System.out.println(b3);
+
+        /*
+        int, long, float, and double all do arithmetic operations differently.
+        EX: doing division in float is different from doing division in double.
+        */
+
+        /*
+        Booleans are either true or false.
+        */
+        boolean result = 10 > 30;
+        System.out.println("Result is: " + result);
+        result = 10 <= 30;
+        System.out.println("Result is: " + result);
+
+        result = true & ++a > 11;
+        System.out.println("Result is: " + result);
     }
 }
