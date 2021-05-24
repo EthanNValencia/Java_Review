@@ -55,6 +55,12 @@ public class Java_Primitive_Types {
         */
         lng = 1235678901020504023L;
 
+        /*
+        Doubles can make use of scientific notation.
+        */
+        dbl = 1.5e2;
+        System.out.println(dbl);
+
         // max_Min();
     }
 
