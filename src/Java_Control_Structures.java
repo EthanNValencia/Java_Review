@@ -19,6 +19,7 @@ public class Java_Control_Structures {
         System.out.println(c);
         System.out.println(a > b ? 5 : 35); // this evaluates to a int 5
         System.out.println(a > b ? 5 : 35.5); // this evaluates to a double 5.0
+        // The reason it evaluates to 5.0 is because int and double are not the same primitive type.
 
         /*
         Always use proper indentation. Always use { }.
@@ -49,5 +50,17 @@ public class Java_Control_Structures {
                 System.out.println("Colin");
                 break;
         }
+
+        for (int i = 0; i < 10; i++){
+            System.out.println(i);
+        }
+
+        int[] array = {10,20,30,40,50};
+        // Read the advanced loop like,
+        // for each "element" in the "array"
+        for(int element: array){
+            System.out.println(element);
+        }
+
     }
 }
