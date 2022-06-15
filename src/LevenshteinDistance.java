@@ -16,7 +16,6 @@ public class LevenshteinDistance {
             }
             edits[i][0] = i;
         }
-
         for(int i = 1; i < str2.length() + 1; i++) {
             for(int j = 1; j < str1.length() + 1; j++) {
                 if(str2.charAt(i - 1) == str1.charAt(j - 1)) {
